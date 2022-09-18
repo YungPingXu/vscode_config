@@ -1,0 +1,12 @@
+{
+    "editor.fontSize": 22,
+    "terminal.integrated.fontSize": 20,
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "terminal.integrated.fontFamily": "Microsoft YaHei Mono",
+    "code-runner.runInTerminal" : true,
+    "code-runner.executorMap": {
+        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "c++": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "python": "cd $dir && python $fileName"
+    }
+}
