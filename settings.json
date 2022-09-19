@@ -1,8 +1,11 @@
 {
     "editor.fontSize": 22,
+    "editor.fontFamily": "Microsoft YaHei Mono",
+    "editor.mouseWheelZoom": true,
     "terminal.integrated.fontSize": 20,
     "terminal.integrated.defaultProfile.windows": "Command Prompt",
     "terminal.integrated.fontFamily": "Microsoft YaHei Mono",
+    "code-runner.saveFileBeforeRun": true,
     "code-runner.runInTerminal" : true,
     "code-runner.executorMap": {
         "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
